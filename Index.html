@@ -3,12 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Styles.css" media="screen">
     <title>Performance Jogadores NBA - Consumindo API</title>
 </head>
 <body>
-  <div>
+  <div class="background">
+
+  </div> 
+  <div class="text">
+    <h>Para saber a performance nas últimas temporadas de um jogador atual da NBA, digite seu nome e clique em visualizar dados. </h>
+  </div> 
+  <div class="choosePlayer">
     <input type="text" id="playerNameInput" placeholder="Digite o nome do jogador">
-    <button onclick="getData()">Obter dados do jogador</button>
+    <button class="button" onclick="getData()">Visualizar Dados</button>
   </div>
   <div id="container-data"></div>
 

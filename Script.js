@@ -12,7 +12,7 @@ async function getData() {
       // Verificar se o array de temporadas existe
       if (Array.isArray(dataArray[3])) {
         const seasons = dataArray[3];
-  
+
         seasons.forEach(seasonData => {
           const season = seasonData.season;
           const age = seasonData.age;
