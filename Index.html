@@ -10,14 +10,14 @@
   <div class="background">
 
   </div> 
-  <div class="text">
+  <div class="text" id="text">
     <h>Para saber a performance nas últimas temporadas de um jogador atual da NBA, digite seu nome e clique em visualizar dados. </h>
   </div> 
-  <div class="choosePlayer">
+  <div class="choosePlayer" id="choosePlayer">
     <input type="text" id="playerNameInput" placeholder="Digite o nome do jogador">
-    <button class="button" onclick="getData()">Visualizar Dados</button>
+    <button class="button" onclick="getData(), modal()">Visualizar Dados</button>
   </div>
-  <div id="container-data"></div>
+  <div class="container-data" id="container-data"></div>
 
   <script src="Script.js"></script>
 </body>

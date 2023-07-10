@@ -88,3 +88,8 @@ async function getData() {
       console.error('Ocorreu um erro:', error);
     }
   }
+
+    function modal() {
+      var text123 = document.getElementById("text");
+      text123.style.display = 'none';
+  }
