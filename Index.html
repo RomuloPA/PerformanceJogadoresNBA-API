@@ -15,9 +15,11 @@
   </div> 
   <div class="choosePlayer" id="choosePlayer">
     <input type="text" id="playerNameInput" placeholder="Digite o nome do jogador">
-    <button class="button" onclick="getData(), modal()">Visualizar Dados</button>
+    <button class="button" onclick="getData(), openModal()">Visualizar Dados</button>
   </div>
-  <div class="container-data" id="container-data"></div>
+  <div class="container-data" id="container-data">
+    <button class="back" id="back" onclick="closeModal(), resetData()">Voltar</button>
+  </div>
 
   <script src="Script.js"></script>
 </body>
